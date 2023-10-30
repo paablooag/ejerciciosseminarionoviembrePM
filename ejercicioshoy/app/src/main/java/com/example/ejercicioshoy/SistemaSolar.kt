@@ -4,7 +4,7 @@ import kotlin.math.max
 
 class SistemaSolar() {
 
-     private lateinit var lista: MutableList<Planeta>
+      lateinit var lista: MutableList<Planeta>
 
     constructor(lista:MutableList<Planeta>):this(){
         this.lista=lista
