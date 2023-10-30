@@ -1,6 +1,7 @@
 package com.example.ejercicioshoy
 
 fun main(){
+    /*
     val lista = mutableListOf(
         Planeta("Mercurio", "Rocoso", 0.055),
         Planeta("Venus", "Rocoso", 0.815),
@@ -17,4 +18,26 @@ fun main(){
 
 
     println(sistema.menorPeso())
+
+     */
+    /*
+    val contacos = mutableListOf<Contacto>(
+        Contacto("Pablo", 687361991, "pito@gmail.com"),
+        Contacto("Pito", 173912823, "simamidamemas@gmail.com"),
+        Contacto("Chico", 173945823, "simamidamemenos@gmail.com"),
+        Contacto("Ultimo", 973912823, "simamidamepoco@gmail.com")
+    )
+
+    println(contacos[0])
+     */
+    val Alumno = mutableListOf<Estudiantes>(
+        Estudiantes("Raúl", 3, 8.75),
+        Estudiantes("Álvaro", 2, 3.75),
+        Estudiantes("Paca", 5, 9.75),
+        Estudiantes("Manu", 2, 4.75)
+    )
+
+    println(Alumno[2])
+    println(Estudiantes.media(Alumno))
+
 }

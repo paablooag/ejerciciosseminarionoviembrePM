@@ -23,8 +23,6 @@ class Triangulo(var lado1:Double, var lado2:Double, var lado3:Double, var perime
                 return true
             }
         }
-
-
         return false
     }
 
