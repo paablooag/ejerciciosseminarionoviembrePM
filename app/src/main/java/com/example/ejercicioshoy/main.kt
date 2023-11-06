@@ -1,8 +1,8 @@
 package com.example.ejercicioshoy
 
 fun main(){
-
 /*
+
     println("Cuantos planetas deseas añadir : ")
     var actualizacion=readLine()
     var cantidad = actualizacion?.toInt() ?: 0
@@ -25,10 +25,66 @@ fun main(){
         println(sistemasolar.lista[i].toString())
     }
 
+ */
+
+
+var lista = mutableListOf<Planeta>(
+    Planeta("Ano", "Gaseoso", 12.43),
+    Planeta("Pito", "Rocoso", 10.43),
+    Planeta("Polla", "Rocoso", 12.43),
+    Planeta("Lorena", "Gaseoso", 14.43),
+    Planeta("Ines", "Rocoso", 52.43),
+    Planeta("Anodf", "Gaseoso", 32.43),
+    Planeta("Anuco", "Rocoso", 132.43),
+    Planeta("Tierra", "Gaseoso", 92.0),
+    Planeta("Mnuo", "Gaseoso", 12.413)
+
+    )
+/*
+for (i in lista.indices){
+    println(lista[i])
+}
 
 
  */
 
+    /*
+for (i in lista.indices){
+    if(lista[i].nombre[0].equals('m', true)){
+        println(lista[i])
+    }
+
+     */
+/*
+    var masaTierra=0.0
+    for (i in lista.indices) {
+        if (lista[i].nombre.equals("Tierra", true)) {
+            masaTierra = lista[i].masa
+        }
+    }
+    for (i in lista.indices){
+        if(lista[i].tipo == "Rocoso" && lista[i].masa>(20*masaTierra)){
+        println(lista[i])
+    }
+
+}
+
+ */
+/*
+    var masaMedia=0.0
+    var contador=0
+    var sumaMasa=0.0
+    for (i in lista.indices){
+        sumaMasa+=lista[i].masa
+        contador++
+    }
+    masaMedia=sumaMasa/contador
+    println(masaMedia)
+
+
+ */
+
+/*
 
     println("Cuantos contactos deseas añadir : ")
     var actualizacion=readLine()
@@ -48,10 +104,13 @@ fun main(){
         sistema.add(nombre)
     }
 
+
     for (i in sistema.indices){
         println(sistema[i].toString())
     }
 
+
+ */
     /*
     val Alumno = mutableListOf<Estudiantes>(
        Estudiantes("Raúl", 3, 8.75),
@@ -91,4 +150,7 @@ for (i in inventario.indices){
 }
 
  */
+
+
+
 }
